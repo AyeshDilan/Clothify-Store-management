@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-image: url(&quot;asset/img1.jpg&quot;); -fx-background-size: 100% 100%;" styleClass="root" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <Pane maxHeight="480.0" maxWidth="480.0" minHeight="480.0" minWidth="480.0" opacity="0.9" prefHeight="480.0" prefWidth="480.0" style="-fx-background-radius: 20px; -fx-border-color: blue; -fx-border-width: 2px; -fx-border-radius: 20px; -fx-background-color: white;" BorderPane.alignment="CENTER">
+            <JFXButton fx:id="btnLogout" alignment="CENTER" layoutX="277.0" layoutY="399.0" prefHeight="43.0" prefWidth="150.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor>
+            </JFXButton>
+         <Label layoutX="120.0" layoutY="235.0" text="Username :">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+         <JFXTextField layoutX="211.0" layoutY="231.0" promptText="Username">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </JFXTextField>
+         <Label layoutX="120.0" layoutY="296.0" text="Password :">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+         <JFXTextField accessibleRole="PASSWORD_FIELD" layoutX="211.0" layoutY="291.0" promptText="Password">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </JFXTextField>
+         <Label layoutX="87.0" layoutY="355.0" prefHeight="20.0" prefWidth="123.0" text="Forgot password ?" textFill="#2308bc">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+         <JFXButton fx:id="btnLogout1" alignment="CENTER" layoutX="67.0" layoutY="399.0" prefHeight="43.0" prefWidth="150.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </JFXButton>
+         <JFXCheckBox layoutX="284.0" layoutY="357.0" text="Show password" />
+         <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="160.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../asset/login.png" />
+            </image>
+         </ImageView>
+        </Pane>
+    </center>
+    <top>
+        <Pane maxHeight="50.0" minHeight="25.0" opacity="0.0" prefHeight="25.0" prefWidth="1000.0" />
+    </top>
+    <left>
+        <Pane minWidth="50.0" opacity="0.0" prefHeight="598.0" prefWidth="100.0" />
+    </left>
+    <right>
+        <Pane maxWidth="100.0" minHeight="50.0" minWidth="0.0" opacity="0.0" prefHeight="600.0" prefWidth="100.0" />
+    </right>
+    <bottom>
+        <Pane maxHeight="25.0" minWidth="50.0" opacity="0.0" prefHeight="25.0" prefWidth="1000.0" />
+    </bottom>
+</BorderPane>

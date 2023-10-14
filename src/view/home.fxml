@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-image: url(&quot;asset/logo.png&quot;);" styleClass="root" stylesheets="@style/background-one.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-image: url(&quot;asset/img1.jpg&quot;); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
     <center>
-        <Pane maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-radius: 20px; -fx-border-color: blue; -fx-border-width: 2px; -fx-border-radius: 20px; -fx-background-color: ffffff;" BorderPane.alignment="CENTER">
+        <Pane maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" opacity="0.9" prefHeight="600.0" prefWidth="800.0" style="-fx-background-radius: 20px; -fx-border-color: blue; -fx-border-width: 2px; -fx-border-radius: 20px; -fx-background-color: white;" BorderPane.alignment="CENTER">
             <Pane layoutX="14.0" layoutY="15.0" prefHeight="569.0" prefWidth="239.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-border-image-width: 2px; -fx-border-color: blue; -fx-background-color: white;">
                 <JFXButton fx:id="btnAddUser" alignment="CENTER" layoutX="14.0" layoutY="10.0" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Add user" textAlignment="CENTER" textFill="WHITE">
                     <font>
@@ -46,7 +43,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXButton>
-                <JFXButton fx:id="btnSalseReturns" alignment="CENTER" layoutX="14.0" layoutY="262.0" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Salse returns" textAlignment="CENTER" textFill="WHITE">
+                <JFXButton fx:id="btnSaleReturns" alignment="CENTER" layoutX="14.0" layoutY="262.0" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Sale returns" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="18.0" />
                     </font>
@@ -78,7 +75,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXButton>
-                <JFXButton fx:id="btnSalseReports" alignment="CENTER" layoutX="14.0" layoutY="514.0" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Sales reports" textAlignment="CENTER" textFill="WHITE">
+                <JFXButton fx:id="btnSaleReports" alignment="CENTER" layoutX="14.0" layoutY="514.0" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Sale reports" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="18.0" />
                     </font>
@@ -87,21 +84,18 @@
                     </cursor>
                 </JFXButton>
             </Pane>
-            <Pane layoutX="278.0" layoutY="14.0" prefHeight="62.0" prefWidth="390.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px; -fx-background-color: #03A9F4; -fx-opacity: .5; -fx-border-color: #0B51BB;">
-                <Label alignment="CENTER" layoutX="6.0" layoutY="6.0" prefHeight="27.0" prefWidth="378.0" text="08.25.36">
+            <Pane layoutX="278.0" layoutY="14.0" prefHeight="62.0" prefWidth="390.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px; -fx-background-color: #03A9F4; -fx-border-color: #0B51BB;">
+                <Label alignment="CENTER" layoutX="6.0" layoutY="6.0" prefHeight="27.0" prefWidth="378.0" text="08.25.36" textFill="WHITE">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Label>
-                <Label alignment="CENTER" layoutX="9.0" layoutY="31.0" prefHeight="27.0" prefWidth="372.0" text="Today is " textAlignment="CENTER">
+                <Label alignment="CENTER" layoutX="9.0" layoutY="31.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="372.0" text="Today is " textAlignment="CENTER" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
                     <font>
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
             </Pane>
-            <ImageView fitHeight="98.0" fitWidth="148.0" layoutX="658.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-                <Image url="@../../asset/logo.png" />
-            </ImageView>
             <Pane layoutX="278.0" layoutY="98.0" prefHeight="423.0" prefWidth="502.0" style="-fx-border-color: #0B51BB; -fx-border-radius: 10px;" />
             <JFXButton fx:id="btnLogout" alignment="CENTER" layoutX="627.0" layoutY="530.0" prefHeight="43.0" prefWidth="150.0" style="-fx-background-color: #03A9F4; -fx-border-image-width: 2px; -fx-background-radius: 6px; -fx-border-color: #0B51BB; -fx-border-radius: 6px; -fx-opacity: .6;" text="Logout" textAlignment="CENTER" textFill="WHITE">
                 <font>
@@ -111,6 +105,11 @@
                     <Cursor fx:constant="HAND" />
                 </cursor>
             </JFXButton>
+         <ImageView fitHeight="107.0" fitWidth="155.0" layoutX="654.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../asset/logo.png" />
+            </image>
+         </ImageView>
         </Pane>
     </center>
     <top>
