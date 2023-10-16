@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-image: url(&quot;asset/img1.jpg&quot;); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-image: url(&quot;asset/img1.jpg&quot;); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
     <center>
         <Pane maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" opacity="0.9" prefHeight="600.0" prefWidth="800.0" style="-fx-background-radius: 20px; -fx-border-color: blue; -fx-border-width: 2px; -fx-border-radius: 20px; -fx-background-color: white;" BorderPane.alignment="CENTER">
             <Pane layoutX="14.0" layoutY="15.0" prefHeight="569.0" prefWidth="239.0" style="-fx-border-radius: 10; -fx-background-radius: 10; -fx-border-image-width: 2px; -fx-border-color: blue; -fx-background-color: white;">
