@@ -12,7 +12,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("view/PlaceOrder.fxml")))));
+        stage.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("view/OrderDetails.fxml")))));
         stage.show();
     }
 }

@@ -16,223 +16,251 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1255.0" style="-fx-background-image: url(&quot;asset/img1.jpg&quot;); -fx-background-size: 100% 100%;" styleClass="root" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PlaceOrderController">
    <center>
-      <Pane maxHeight="600.0" maxWidth="1155.0" minHeight="600.0" minWidth="1155.0" opacity="0.9" prefHeight="600.0"
-            prefWidth="1155.0"
-            style="-fx-background-radius: 20px; -fx-border-color: blue; -fx-border-width: 2px; -fx-border-radius: 20px; -fx-background-color: white;"
-            BorderPane.alignment="CENTER">
-         <Pane layoutX="26.0" layoutY="299.0" prefHeight="256.0" prefWidth="1100.0"
-               style="-fx-border-color: blue; -fx-border-radius: 10;">
-            <TableView layoutX="8.0" layoutY="7.0" prefHeight="242.0" prefWidth="1084.0">
+      <Pane maxHeight="617.0" maxWidth="1155.0" minHeight="600.0" minWidth="1155.0" opacity="0.9" prefHeight="617.0" prefWidth="1155.0" style="-fx-background-radius: 20px; -fx-border-color: blue; -fx-border-width: 2px; -fx-border-radius: 20px; -fx-background-color: white;" BorderPane.alignment="CENTER">
+         <Pane layoutX="26.0" layoutY="299.0" prefHeight="246.0" prefWidth="1100.0" style="-fx-border-color: blue; -fx-border-radius: 10;">
+            <TableView layoutX="8.0" layoutY="7.0" prefHeight="230.0" prefWidth="1084.0">
                <columns>
-                  <TableColumn prefWidth="103.0" text="Item Code"/>
-                  <TableColumn prefWidth="152.0" text="description"/>
-                  <TableColumn prefWidth="79.0" text="Qty"/>
-                  <TableColumn prefWidth="124.0" text="Unit Price"/>
-                  <TableColumn prefWidth="116.0" text="Date"/>
-                  <TableColumn prefWidth="164.0" text="Discount %"/>
-                  <TableColumn prefWidth="113.0" text="Type"/>
-                  <TableColumn prefWidth="115.0" text="Size"/>
-                  <TableColumn prefWidth="117.0" text="Amount"/>
+                  <TableColumn prefWidth="103.0" text="Item Code" />
+                  <TableColumn prefWidth="152.0" text="description" />
+                  <TableColumn prefWidth="79.0" text="Qty" />
+                  <TableColumn prefWidth="124.0" text="Unit Price" />
+                  <TableColumn prefWidth="116.0" text="Date" />
+                  <TableColumn prefWidth="164.0" text="Discount %" />
+                  <TableColumn prefWidth="113.0" text="Type" />
+                  <TableColumn prefWidth="115.0" text="Size" />
+                  <TableColumn prefWidth="117.0" text="Amount" />
                </columns>
             </TableView>
          </Pane>
          <Label layoutX="960.0" layoutY="25.0" text="Order Id :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <JFXTextField layoutX="1031.0" layoutY="20.0" prefHeight="30.0" prefWidth="98.0" promptText="ORD-0000000">
             <font>
-               <Font size="14.0"/>
+               <Font size="14.0" />
             </font>
          </JFXTextField>
          <Label layoutX="26.0" layoutY="55.0" text="Order Id :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="26.0" layoutY="89.0" text="Customer name :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="26.0" layoutY="129.0" text="Customer contact :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="26.0" layoutY="207.0" text="Date :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="26.0" layoutY="168.0" text="Customer email :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="26.0" layoutY="247.0" text="Payment :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <JFXTextField layoutX="323.0" layoutY="38.0" prefHeight="25.0" prefWidth="177.0" promptText="Employer name">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="175.0" layoutY="83.0" maxWidth="270.0" prefWidth="270.0" promptText="Customer name">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="175.0" layoutY="124.0" prefWidth="270.0" promptText="Customer contact">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="175.0" layoutY="162.0" prefWidth="270.0" promptText="Customer email">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
-         <JFXComboBox layoutX="175.0" layoutY="39.0" prefHeight="33.0" prefWidth="116.0" promptText="Select ID"
-                      visibleRowCount="16"/>
-         <DatePicker layoutX="175.0" layoutY="205.0" prefHeight="25.0" prefWidth="234.0"/>
+         <JFXComboBox layoutX="175.0" layoutY="39.0" prefHeight="33.0" prefWidth="116.0" promptText="Select ID" visibleRowCount="16" />
+         <DatePicker layoutX="175.0" layoutY="205.0" prefHeight="25.0" prefWidth="234.0" />
          <JFXCheckBox layoutX="175.0" layoutY="247.0" text="Cash">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXCheckBox>
          <JFXCheckBox layoutX="278.0" layoutY="247.0" text="Card">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXCheckBox>
          <Label layoutX="596.0" layoutY="50.0" text="Item code :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="596.0" layoutY="89.0" text="Description :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="596.0" layoutY="128.0" text="Qty :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="596.0" layoutY="207.0" text="Type :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="596.0" layoutY="168.0" text="Selling price :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <JFXTextField layoutX="750.0" layoutY="86.0" maxWidth="270.0" prefWidth="270.0" promptText="Description">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="750.0" layoutY="126.0" prefHeight="25.0" prefWidth="50.0" promptText="00">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="750.0" layoutY="165.0" prefWidth="50.0" promptText="0.00">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
-         <JFXTextField layoutX="750.0" layoutY="46.0" maxWidth="270.0" prefHeight="25.0" prefWidth="121.0"
-                       promptText="P-00000">
+         <JFXTextField layoutX="750.0" layoutY="46.0" maxWidth="270.0" prefHeight="25.0" prefWidth="121.0" promptText="P-00000">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
-         <JFXComboBox layoutX="885.0" layoutY="56.0" prefHeight="25.0" prefWidth="68.0" promptText="Select"/>
+         <JFXComboBox layoutX="885.0" layoutY="56.0" prefHeight="25.0" prefWidth="68.0" promptText="Select" />
          <JFXTextField layoutX="750.0" layoutY="204.0" prefWidth="50.0" promptText="Type">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <Label layoutX="876.0" layoutY="128.0" text="Qty on hand :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="876.0" layoutY="207.0" text="Size :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <Label layoutX="876.0" layoutY="168.0" text="Discount :">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
          <JFXTextField layoutX="1030.0" layoutY="125.0" prefHeight="25.0" prefWidth="50.0" promptText="00">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="1030.0" layoutY="164.0" prefWidth="50.0" promptText="00">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <JFXTextField layoutX="1030.0" layoutY="203.0" prefWidth="50.0" promptText="Size">
             <font>
-               <Font size="16.0"/>
+               <Font size="16.0" />
             </font>
          </JFXTextField>
          <Label layoutX="1081.0" layoutY="189.0" text="\%">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
             </font>
          </Label>
-         <JFXButton layoutX="596.0" layoutY="255.0" prefHeight="35.0" prefWidth="133.0"
-                    style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;"
-                    text="Remove Order" textFill="WHITE">
+         <JFXButton layoutX="596.0" layoutY="255.0" prefHeight="35.0" prefWidth="133.0" style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;" text="Remove Order" textFill="WHITE">
             <font>
-               <Font name="System Bold" size="14.0"/>
+               <Font name="System Bold" size="14.0" />
             </font>
          </JFXButton>
-         <JFXButton layoutX="737.0" layoutY="255.0" prefHeight="35.0" prefWidth="120.0"
-                    style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;"
-                    text="Clear" textFill="WHITE">
+         <JFXButton layoutX="737.0" layoutY="255.0" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;" text="Clear" textFill="WHITE">
             <font>
-               <Font name="System Bold" size="14.0"/>
+               <Font name="System Bold" size="14.0" />
             </font>
          </JFXButton>
-         <JFXButton layoutX="866.0" layoutY="255.0" prefHeight="35.0" prefWidth="120.0"
-                    style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;"
-                    text="Update" textFill="WHITE">
+         <JFXButton layoutX="866.0" layoutY="255.0" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;" text="Update" textFill="WHITE">
             <font>
-               <Font name="System Bold" size="14.0"/>
+               <Font name="System Bold" size="14.0" />
             </font>
          </JFXButton>
-         <JFXButton layoutX="995.0" layoutY="246.0" prefHeight="45.0" prefWidth="133.0"
-                    style="-fx-background-color: #0372F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;"
-                    text="         Add to Cart" textAlignment="RIGHT" textFill="WHITE">
+         <JFXButton layoutX="995.0" layoutY="246.0" prefHeight="45.0" prefWidth="133.0" style="-fx-background-color: #0372F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;" text="         Add to Cart" textAlignment="RIGHT" textFill="WHITE">
             <font>
-               <Font name="System Bold" size="14.0"/>
+               <Font name="System Bold" size="14.0" />
             </font>
          </JFXButton>
-         <ImageView fitHeight="35.0" fitWidth="49.0" layoutX="998.0" layoutY="251.0" pickOnBounds="true"
-                    preserveRatio="true">
-            <Image url="@../asset/Cart.png"/>
+         <ImageView fitHeight="35.0" fitWidth="49.0" layoutX="998.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../asset/Cart.png" />
          </ImageView>
-         <JFXButton layoutX="23.0" layoutY="10.0" prefHeight="35.0" prefWidth="79.0"
-                    style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;"
-                    text="Home" textFill="WHITE">
+         <JFXButton layoutX="23.0" layoutY="10.0" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #03A9F4; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;" text="Home" textFill="WHITE">
             <font>
-               <Font name="System Bold" size="16.0"/>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </JFXButton>
+         <Label layoutX="36.0" layoutY="557.0" text="Total :">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="86.0" layoutY="557.0" text="0.00" textFill="#eb0707">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="278.0" layoutY="557.0" text="Discount :">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="360.0" layoutY="557.0" text="0.00" textFill="#eb0707">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="524.0" layoutY="557.0" text="Balance :">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="600.0" layoutY="557.0" text="0.00" textFill="#eb0707">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="758.0" layoutY="557.0" text="Cash :">
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Label>
+         <JFXTextField layoutX="820.0" layoutY="553.0" prefHeight="35.0" prefWidth="74.0" promptText="0.00">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </JFXTextField>
+         <JFXButton layoutX="960.0" layoutY="552.0" prefHeight="35.0" prefWidth="165.0" style="-fx-background-color: red; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #0B51BB;" text="Place Order" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="17.0" />
             </font>
          </JFXButton>
       </Pane>
